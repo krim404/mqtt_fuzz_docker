@@ -13,4 +13,4 @@ ARG TIMEOUT = Runtime of the Fuzzing attack
 '-delay', default=50, How many milliseconds to wait between control packets sent
 
 ## Example execution
-docker run -e "TARGET=10.188.101.114" -e "PORT=1883" -e "TIMEOUT=60" mqtt_fuzz:latest
+docker run -e "TARGET=10.188.101.114" -e "PORT=1883" -e "TIMEOUT=60" wmchris/mqtt_fuzz:latest
